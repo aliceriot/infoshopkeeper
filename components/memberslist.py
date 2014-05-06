@@ -12,7 +12,7 @@ from objects.member import Member
 from upc import upc2isbn
 
 
-class MembersList:
+class MembersList():
     def __init__(self):
         x=1
        

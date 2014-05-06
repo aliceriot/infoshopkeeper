@@ -55,8 +55,8 @@
 
 import string 
 import types
-from wxPython.wx import *
-from wxPython.stc import *
+from wx import *
+from wx.stc import *
 from types import *
 
 from infoshopkeeper_config import configuration

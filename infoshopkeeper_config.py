@@ -44,7 +44,7 @@ except:
 
 class configuration:
     def get(self, var):
-        import etc_default
+        #import etc_default
         import etc
 	if var in dir(etc):
 	    return getattr(etc, var)

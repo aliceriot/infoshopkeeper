@@ -21,10 +21,10 @@
 #Boa:App:BoaApp
 try:
     import wxversion
-    wxversion.select("2.6")
+    wxversion.select("2.8")
 except Exception, e:
     import sys
-    print >> sys.stderr, "%s: wxPython 2.6 not installed." %e
+    print >> sys.stderr, "%s: wx 2.8 not installed." %e
     sys.exit(1)
 
 from infoshopkeeper_config import configuration
